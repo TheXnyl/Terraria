@@ -1,0 +1,85 @@
+# Base formatting style
+BasedOnStyle: LLVM  # Starting point for style
+
+# ---------------------- INDENTATION ----------------------
+IndentWidth: 2       # Number of spaces per indentation level
+TabWidth: 2          # Number of spaces that represent a tab
+ContinuationIndentWidth: 2
+UseTab: Never        # Use spaces instead of tabs
+
+# ---------------------- BRACES ---------------------------
+BreakBeforeBraces: Allman  # Puts braces on a new line
+
+# ---------------------- INCLUDES -------------------------
+SortIncludes: false        # Don’t reorder #include statements
+IncludeBlocks: Preserve    # Don’t merge or regroup include blocks
+
+# ---------------------- COLUMN LIMIT ---------------------
+ColumnLimit: 100            # Max line length before breaking
+
+
+# ---------------------- PARAMTERS ---------------------
+# BinPackArguments: true
+# AllowAllArgumentsOnNextLine: false
+
+# ---------------------- SPACING --------------------------
+SpaceBeforeParens: ControlStatements  # Space before () in if, for, etc.
+SpaceAfterCStyleCast: false # Space after (type) casts
+SpacesInAngles: false                # No spaces in template angles
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: true      # e.g. { 1, 2 }
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeAssignmentOperators: true
+SpaceAfterTemplateKeyword: true
+SpaceBeforeCpp11BracedList: false
+
+# ---------------------- LINE BREAKING ---------------------
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortCaseLabelsOnASingleLine: false
+BreakConstructorInitializersBeforeComma: false
+BreakBeforeBinaryOperators: None     # Can also be: NonAssignment, All
+BreakAfterJavaFieldAnnotations: false
+BreakStringLiterals: true
+
+# ---------------------- ALIGNMENT -------------------------
+AlignAfterOpenBracket: Align        # Align params inside ()
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+
+# ---------------------- POINTERS & REFERENCES ------------
+PointerAlignment: Left             # int* ptr vs int *ptr
+ReferenceAlignment: Left
+
+# ---------------------- NAMESPACES ------------------------
+NamespaceIndentation: All         # Indent All inner namespace contents
+FixNamespaceComments: false
+
+# ---------------------- MACROS ---------------------------
+IndentPPDirectives: None            # Don’t indent preprocessor directives
+MacroBlockBegin: ''                 # Define macro block start
+MacroBlockEnd: ''                   # Define macro block end
+
+# ---------------------- OTHER OPTIONS ---------------------
+KeepEmptyLinesAtTheStartOfBlocks: true
+Cpp11BracedListStyle: false
+ReflowComments: true
+AlwaysBreakTemplateDeclarations: MultiLine
+EmptyLineBeforeAccessModifier: Always
+SortUsingDeclarations: false
+DerivePointerAlignment: false
+PackConstructorInitializers: Never
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+IndentWrappedFunctionNames: false
+IncludeIsMainRegex: ''              # Can be used to prevent sorting of main include
+UseCRLF: false                      # Use LF line endings
+ShortNamespaceLines: 0
+
+# ---------------------- LAMDAS ------------------------
+LambdaBodyIndentation: OuterScope
+
