@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan
+CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release
+CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include Dependencies/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.mak
 include Dependencies/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 Dependencies/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src && "C:/Program Files/CMake/bin/cmake.exe" -P C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src && "C:/Program Files/CMake/bin/cmake.exe" -P C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 Dependencies/glfw/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : Dependencies/glfw/src/CMakeFiles/update_mappings.dir/codegen
@@ -82,10 +82,10 @@ Dependencies/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : Dependencies/glfw/src/CMakeFiles/update_mappings.dir/build
 
 Dependencies/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : Dependencies/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 Dependencies/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Dependencies/glfw/src/CMakeFiles/update_mappings.dir/depend
 

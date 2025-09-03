@@ -57,13 +57,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.31.3/CMakeSystem.cmake"
-  "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/CMakeLists.txt"
-  "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/CMake/cmake_uninstall.cmake.in"
-  "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/CMake/glfw3.pc.in"
-  "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/CMake/glfw3Config.cmake.in"
-  "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/CMakeLists.txt"
-  "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/docs/CMakeLists.txt"
-  "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/CMakeLists.txt"
+  "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/CMakeLists.txt"
+  "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/CMake/cmake_uninstall.cmake.in"
+  "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/CMake/glfw3.pc.in"
+  "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/CMake/glfw3Config.cmake.in"
+  "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/CMakeLists.txt"
+  "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/docs/CMakeLists.txt"
+  "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -86,7 +86,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Vulkan.dir/DependInfo.cmake"
+  "CMakeFiles/Terraria.dir/DependInfo.cmake"
   "Dependencies/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "Dependencies/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "Dependencies/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"

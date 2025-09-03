@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 cmake_minimum_required(VERSION 3.20)
-project(Vulkan LANGUAGES CXX)
+project(Terraria LANGUAGES CXX)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 

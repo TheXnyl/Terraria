@@ -19,6 +19,31 @@ struct StringArray
   const char** data;
 };
 
+#ifndef NDEBUG
+
+static VkResult CreateDebugUtilsMessengerEXT(const VkInstance instance,
+                                             const VkDebugUtilsMessengerCreateInfoEXT* pCreateInfo,
+                                             const VkAllocationCallbacks* pAllocator,
+                                             VkDebugUtilsMessengerEXT* pDebugMessenger)
+{
+  auto func = (PFN_vkCreateDebugUtilsMessengerEXT)vkGetInstanceProcAddr(
+    instance, "vkCreateDebugUtilsMessengerEXT");
+  if (func != nullptr)
+    return func(instance, pCreateInfo, pAllocator, pDebugMessenger);
+  else
+    return VK_ERROR_EXTENSION_NOT_PRESENT;
+}
+
+void DestroyDebugUtilsMessengerEXT(const VkInstance instance,
+                                   VkDebugUtilsMessengerEXT debugMessenger,
+                                   const VkAllocationCallbacks* pAllocator)
+{
+  auto func = (PFN_vkDestroyDebugUtilsMessengerEXT)vkGetInstanceProcAddr(
+    instance, "vkDestroyDebugUtilsMessengerEXT");
+  if (func != nullptr)
+    func(instance, debugMessenger, pAllocator);
+}
+
 static VKAPI_ATTR VkBool32 VKAPI_CALL debugCallback(
   [[maybe_unused]] VkDebugUtilsMessageSeverityFlagBitsEXT messageSeverity,
   [[maybe_unused]] VkDebugUtilsMessageTypeFlagsEXT messageType,
@@ -28,14 +53,26 @@ static VKAPI_ATTR VkBool32 VKAPI_CALL debugCallback(
   return VK_FALSE;
 }
 
-static GLFWwindow* initGlfw()
+static VkDebugUtilsMessengerEXT createDebugMessenger(const VkInstance instance)
 {
-  glfwInit();
-  glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-  glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+  VkDebugUtilsMessengerCreateInfoEXT createInfo{};
+  createInfo.sType = VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT;
+  createInfo.messageSeverity = VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT |
+                               VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT |
+                               VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT;
+  createInfo.messageType = VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT |
+                           VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT |
+                           VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT;
+  createInfo.pfnUserCallback = debugCallback;
+  createInfo.pUserData = nullptr;
 
-  return glfwCreateWindow(WIDTH, HEIGHT, "Vulkan", nullptr, nullptr);
+  VkDebugUtilsMessengerEXT debugMessenger;
+  CreateDebugUtilsMessengerEXT(instance, &createInfo, nullptr, &debugMessenger);
+
+  return debugMessenger;
 }
+
+#endif
 
 static StringArray getExtensions()
 {
@@ -73,8 +110,12 @@ static StringArray getExtensions()
                                " is not supported");
   }
 
+  delete[] availableExtensions;
+
   return { aExtensions, extensions };
 }
+
+#ifndef NDEBUG
 
 static StringArray getLayers()
 {
@@ -108,6 +149,17 @@ static StringArray getLayers()
   delete[] availableLayers;
 
   return { aLayers, heapLayers };
+}
+
+#endif
+
+static GLFWwindow* initGlfw()
+{
+  glfwInit();
+  glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+  glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+
+  return glfwCreateWindow(WIDTH, HEIGHT, "Vulkan", nullptr, nullptr);
 }
 
 static VkInstance initVulkan()
@@ -148,9 +200,12 @@ static VkInstance initVulkan()
   return instance;
 }
 
-static void cleanVulkan(VkInstance* instance)
+static void cleanVulkan(const VkInstance instance, const VkDebugUtilsMessengerEXT debugMessenger)
 {
-  vkDestroyInstance(*instance, nullptr);
+#ifndef NDEBUG
+  DestroyDebugUtilsMessengerEXT(instance, debugMessenger, nullptr);
+#endif
+  vkDestroyInstance(instance, nullptr);
 }
 
 static void cleanGlfw(GLFWwindow* window)
@@ -170,22 +225,14 @@ int main()
   GLFWwindow* window = initGlfw();
   VkInstance instance = initVulkan();
 
-  VkDebugUtilsMessengerCreateInfoEXT createInfo{};
-  createInfo.sType = VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT;
-  createInfo.messageSeverity = VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT |
-                               VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT |
-                               VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT;
-  createInfo.messageType = VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT |
-                           VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT |
-                           VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT;
-  createInfo.pfnUserCallback = debugCallback;
-
-  VkDebugUtilsMessengerEXT debugMessenger;
-  vkCreateDebugUtilsMessengerEXT(instance, &createInfo, nullptr, &debugMessenger);
-
+#ifndef NDEBUG
+  VkDebugUtilsMessengerEXT debugMessenger = createDebugMessenger(instance);
+#else
+  VkDebugUtilsMessengerEXT debugMessenger = nullptr;
+#endif
 
   run(window);
 
-  cleanVulkan(&instance);
+  cleanVulkan(instance, debugMessenger);
   cleanGlfw(window);
 }

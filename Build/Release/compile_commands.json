@@ -1,134 +1,134 @@
 [
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release",
-  "command": "C:/msys64/ucrt64/bin/c++.exe  @CMakeFiles/Vulkan.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O3 -DNDEBUG -o CMakeFiles/Vulkan.dir/src/main.cpp.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/src/main.cpp",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/src/main.cpp",
-  "output": "CMakeFiles/Vulkan.dir/src/main.cpp.obj"
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release",
+  "command": "C:/msys64/ucrt64/bin/c++.exe  @CMakeFiles/Terraria.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O3 -DNDEBUG -o CMakeFiles/Terraria.dir/src/main.cpp.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/src/main.cpp",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/src/main.cpp",
+  "output": "CMakeFiles/Terraria.dir/src/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/context.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/context.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/context.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/context.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/context.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/context.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/init.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/init.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/init.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/init.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/init.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/init.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/input.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/input.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/input.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/input.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/input.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/input.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/monitor.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/monitor.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/monitor.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/monitor.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/monitor.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/monitor.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/platform.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/platform.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/platform.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/platform.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/platform.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/platform.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/vulkan.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/vulkan.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/vulkan.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/vulkan.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/vulkan.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/vulkan.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/window.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/window.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/window.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/window.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/window.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/window.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/egl_context.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/egl_context.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/egl_context.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/egl_context.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/egl_context.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/egl_context.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/osmesa_context.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/osmesa_context.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/osmesa_context.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/osmesa_context.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_init.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_init.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_init.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_init.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_init.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_init.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_monitor.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_monitor.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_monitor.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_monitor.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_monitor.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_monitor.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_window.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_window.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_window.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_window.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_window.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_window.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_joystick.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_joystick.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_joystick.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/null_joystick.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_joystick.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_joystick.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_module.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_module.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_module.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_module.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_module.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_module.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_time.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_time.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_time.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_time.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_time.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_time.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_thread.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_thread.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_thread.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_thread.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_thread.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_thread.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_init.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_init.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_init.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_init.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_init.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_init.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_joystick.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_joystick.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_joystick.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_joystick.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_joystick.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_joystick.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_monitor.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_monitor.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_monitor.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_monitor.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_monitor.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_monitor.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_window.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_window.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_window.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/win32_window.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_window.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_window.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
 },
 {
-  "directory": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src",
-  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/wgl_context.c.obj -c C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/wgl_context.c",
-  "file": "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/wgl_context.c",
+  "directory": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src",
+  "command": "C:/msys64/ucrt64/bin/cc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O3 -DNDEBUG -std=c99 -Wall -o CMakeFiles/glfw.dir/wgl_context.c.obj -c C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/wgl_context.c",
+  "file": "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/wgl_context.c",
   "output": "Dependencies/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
 }
 ]

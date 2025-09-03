@@ -3,7 +3,7 @@
 setlocal
 
 set ROOT=%~dp0
-set SRC=%ROOT%../Vulkan
+set SRC=%ROOT%../Terraria
 
 set BUILD_DEBUG=%ROOT%..\Build\Debug
 set BUILD_RELEASE=%ROOT%..\Build\Release

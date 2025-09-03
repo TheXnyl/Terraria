@@ -1,1 +1,1 @@
--IC:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/include -IC:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src -IC:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/src
+-IC:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/include -IC:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src -IC:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/src

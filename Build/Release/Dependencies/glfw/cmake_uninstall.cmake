@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/install_manifest.txt" files)
+file(READ "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

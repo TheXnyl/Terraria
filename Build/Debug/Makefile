@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan
+CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug
+CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug/CMakeFiles C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug/CMakeFiles C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Vulkan
+# Target rules for targets named Terraria
 
 # Build rule for target.
-Vulkan: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vulkan
-.PHONY : Vulkan
+Terraria: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Terraria
+.PHONY : Terraria
 
 # fast build rule for target.
-Vulkan/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vulkan.dir/build.make CMakeFiles/Vulkan.dir/build
-.PHONY : Vulkan/fast
+Terraria/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/build
+.PHONY : Terraria/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -218,7 +218,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vulkan.dir/build.make CMakeFiles/Vulkan.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -226,7 +226,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vulkan.dir/build.make CMakeFiles/Vulkan.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -234,7 +234,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vulkan.dir/build.make CMakeFiles/Vulkan.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -251,7 +251,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
-	@echo "... Vulkan"
+	@echo "... Terraria"
 	@echo "... glfw"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"

@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan
+CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug
+CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include Dependencies/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include Dependencies/glfw/CMakeFiles/uninstall.dir/progress.make
 
 Dependencies/glfw/CMakeFiles/uninstall:
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug/Dependencies/glfw && "C:/Program Files/CMake/bin/cmake.exe" -P C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug/Dependencies/glfw/cmake_uninstall.cmake
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug/Dependencies/glfw && "C:/Program Files/CMake/bin/cmake.exe" -P C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug/Dependencies/glfw/cmake_uninstall.cmake
 
 Dependencies/glfw/CMakeFiles/uninstall.dir/codegen:
 .PHONY : Dependencies/glfw/CMakeFiles/uninstall.dir/codegen
@@ -81,10 +81,10 @@ Dependencies/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : Dependencies/glfw/CMakeFiles/uninstall.dir/build
 
 Dependencies/glfw/CMakeFiles/uninstall.dir/clean:
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug/Dependencies/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug/Dependencies/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : Dependencies/glfw/CMakeFiles/uninstall.dir/clean
 
 Dependencies/glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug/Dependencies/glfw C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Debug/Dependencies/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug/Dependencies/glfw C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug/Dependencies/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Dependencies/glfw/CMakeFiles/uninstall.dir/depend
 

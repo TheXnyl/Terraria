@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan
+# Install script for directory: C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Vulkan")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Terraria")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/cmake_install.cmake")
+  include("C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/install_local_manifest.txt"
+  file(WRITE "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

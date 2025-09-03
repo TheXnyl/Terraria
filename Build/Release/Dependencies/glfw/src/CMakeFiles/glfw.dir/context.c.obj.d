@@ -1,7 +1,7 @@
 Dependencies/glfw/src/CMakeFiles/glfw.dir/context.c.obj: \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/context.c \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/internal.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/include/glfw/glfw3.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/context.c \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/internal.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/include/glfw/glfw3.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
@@ -11,9 +11,9 @@ Dependencies/glfw/src/CMakeFiles/glfw.dir/context.c.obj: \
  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/platform.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_platform.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_platform.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/platform.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_platform.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_platform.h \
  C:/msys64/ucrt64/include/wctype.h C:/msys64/ucrt64/include/windows.h \
  C:/msys64/ucrt64/include/sdkddkver.h C:/msys64/ucrt64/include/excpt.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
@@ -208,11 +208,11 @@ Dependencies/glfw/src/CMakeFiles/glfw.dir/context.c.obj: \
  C:/msys64/ucrt64/include/propidl.h \
  C:/msys64/ucrt64/include/_mingw_dxhelper.h \
  C:/msys64/ucrt64/include/xinput.h C:/msys64/ucrt64/include/dbt.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/null_joystick.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_joystick.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_thread.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/src/win32_time.h \
- C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan/Dependencies/glfw/include/glfw/glfw3native.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/null_joystick.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_joystick.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_thread.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/src/win32_time.h \
+ C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria/Dependencies/glfw/include/glfw/glfw3native.h \
  C:/msys64/ucrt64/include/assert.h C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \

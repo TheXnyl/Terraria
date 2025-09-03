@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Vulkan
+CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release
+CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/CMakeFiles C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/Dependencies/glfw/docs//CMakeFiles/progress.marks
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release/CMakeFiles 0
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/CMakeFiles C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/docs//CMakeFiles/progress.marks
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/clean
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/preinstall
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/preinstall
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dependencies/glfw/docs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/Users/Yishai/CodingProjects/CProjects/Vulkan/Build/Release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
