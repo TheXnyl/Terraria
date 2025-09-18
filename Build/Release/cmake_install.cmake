@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria
+# Install script for directory: C:/Users/Yishai/CodingProjects/CppProjects/Terraria
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Dependencies/glfw/cmake_install.cmake")
+  include("C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Lynx/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Release/Terraria/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

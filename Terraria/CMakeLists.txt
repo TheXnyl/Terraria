@@ -1,42 +1,36 @@
 cmake_minimum_required(VERSION 3.20)
-cmake_minimum_required(VERSION 3.20)
 project(Terraria LANGUAGES CXX)
 
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-# set(CMAKE_CXX_EXTENSIONS OFF) # optional, disables GNU extensions
-
-if(NOT CMAKE_BUILD_TYPE)
-  set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type" FORCE)
-endif()
-
-find_package(Vulkan REQUIRED)
-
-add_subdirectory(dependencies/glfw)
-
 file(GLOB SRC_FILES
-    src/*.cpp
+  src/*.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
-target_link_libraries(${PROJECT_NAME} PRIVATE Vulkan::Vulkan glfw)
 
-target_include_directories(${PROJECT_NAME} PRIVATE Dependencies/glfw/include)
-target_include_directories(${PROJECT_NAME} PRIVATE Dependencies/glm/include)
-# target_compile_definitions(${PROJECT_NAME} PRIVATE GLFW_INCLUDE_VULKAN)
+target_link_libraries(${PROJECT_NAME} PRIVATE Lynx)
 
-if(MSVC)
-    target_compile_options(${PROJECT_NAME} PRIVATE
-        /W4
-        $<$<CONFIG:Debug>:/Zi /Od>
-        $<$<CONFIG:Release>:/O2 /DNDEBUG>
-    )
-else()
-    target_compile_options(${PROJECT_NAME} PRIVATE
-        -Wall -Wextra -Wpedantic
-        $<$<CONFIG:Debug>:-g -O0>
-        $<$<CONFIG:Release>:-O3 -DNDEBUG>
-    )
-endif()
+add_debug_warnings(${PROJECT_NAME})
+
+add_custom_command(
+  TARGET ${PROJECT_NAME} POST_BUILD
+  COMMAND ${CMAKE_COMMAND} -E copy_directory
+  ${CMAKE_CURRENT_SOURCE_DIR}/Resources/Textures
+  ${CMAKE_CURRENT_BINARY_DIR}/Resources/Textures
+  COMMENT "Copying textures folder"
+)
+
+# add_custom_command(
+#   TARGET ${PROJECT_NAME} POST_BUILD
+#   COMMAND ${CMAKE_COMMAND} -E copy_directory
+#   ${CMAKE_SOURCE_DIR}/Resources/Shaders/Bin
+#   ${CMAKE_BINARY_DIR}/Resources/Shaders/Bin
+#   COMMENT "Compiling shaders"
+# )
+
+add_custom_command(
+  TARGET ${PROJECT_NAME} POST_BUILD
+  COMMAND ${CMAKE_COMMAND} -E copy_directory
+  ${CMAKE_CURRENT_SOURCE_DIR}/Resources/Shaders/Bin
+  ${CMAKE_CURRENT_BINARY_DIR}/Resources/Shaders/bin
+  COMMENT "Copying compiled shader binaries"
+)

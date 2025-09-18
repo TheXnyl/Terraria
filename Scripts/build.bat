@@ -3,8 +3,7 @@ setlocal
 
 set ROOT=%~dp0
 
-%ROOT%cmake_build.bat
-%ROOT%make_build.bat
+call "%ROOT%cmake_build.bat"
+call "%ROOT%make_build.bat"
 
 endlocal
-pause

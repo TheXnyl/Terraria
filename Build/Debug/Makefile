@@ -57,7 +57,7 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Terraria
+CMAKE_SOURCE_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:/Users/Yishai/CodingProjects/CppProjects/Terraria/Build/Debug
@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Terraria
+# Target rules for targets named Lynx
 
 # Build rule for target.
-Terraria: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Terraria
-.PHONY : Terraria
+Lynx: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lynx
+.PHONY : Lynx
 
 # fast build rule for target.
-Terraria/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/build
-.PHONY : Terraria/fast
+Lynx/fast:
+	$(MAKE) $(MAKESILENT) -f Lynx/CMakeFiles/Lynx.dir/build.make Lynx/CMakeFiles/Lynx.dir/build
+.PHONY : Lynx/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -184,7 +184,7 @@ uninstall: cmake_check_build_system
 
 # fast build rule for target.
 uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f Dependencies/glfw/CMakeFiles/uninstall.dir/build.make Dependencies/glfw/CMakeFiles/uninstall.dir/build
+	$(MAKE) $(MAKESILENT) -f Lynx/Dependencies/glfw/CMakeFiles/uninstall.dir/build.make Lynx/Dependencies/glfw/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 #=============================================================================
@@ -197,7 +197,7 @@ glfw: cmake_check_build_system
 
 # fast build rule for target.
 glfw/fast:
-	$(MAKE) $(MAKESILENT) -f Dependencies/glfw/src/CMakeFiles/glfw.dir/build.make Dependencies/glfw/src/CMakeFiles/glfw.dir/build
+	$(MAKE) $(MAKESILENT) -f Lynx/Dependencies/glfw/src/CMakeFiles/glfw.dir/build.make Lynx/Dependencies/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 #=============================================================================
@@ -210,32 +210,34 @@ update_mappings: cmake_check_build_system
 
 # fast build rule for target.
 update_mappings/fast:
-	$(MAKE) $(MAKESILENT) -f Dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make Dependencies/glfw/src/CMakeFiles/update_mappings.dir/build
+	$(MAKE) $(MAKESILENT) -f Lynx/Dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make Lynx/Dependencies/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+#=============================================================================
+# Target rules for targets named glm
 
-# target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+# Build rule for target.
+glm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glm
+.PHONY : glm
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+# fast build rule for target.
+glm/fast:
+	$(MAKE) $(MAKESILENT) -f Lynx/Dependencies/glm/glm/CMakeFiles/glm.dir/build.make Lynx/Dependencies/glm/glm/CMakeFiles/glm.dir/build
+.PHONY : glm/fast
 
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+#=============================================================================
+# Target rules for targets named Terraria
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+# Build rule for target.
+Terraria: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Terraria
+.PHONY : Terraria
 
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Terraria.dir/build.make CMakeFiles/Terraria.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+# fast build rule for target.
+Terraria/fast:
+	$(MAKE) $(MAKESILENT) -f Terraria/CMakeFiles/Terraria.dir/build.make Terraria/CMakeFiles/Terraria.dir/build
+.PHONY : Terraria/fast
 
 # Help Target
 help:
@@ -251,11 +253,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... Lynx"
 	@echo "... Terraria"
 	@echo "... glfw"
-	@echo "... src/main.obj"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... glm"
 .PHONY : help
 
 
